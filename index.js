@@ -1,9 +1,12 @@
-// Documentation: node.js - Api - File System
+// Documentation: https://www.npmjs.com/package/superheroes
 
-// First step: require module to interact with the File System:
-const fs = require('fs'); // const can't be overwrited
+// Usage
+const superheroes = require('superheroes');
 
-// method called copyFileSync in order to create a copy of my file
-fs.copyFileSync("file1.txt" , "file2.txt");
-// This code will find find file1.txt and will make a copy called file2.txt
-// If file2.txt already exists, our method will replace the existing content
+superheroes.all;
+//=> ['3-D Man', 'A-Bomb', …]
+
+var mySuperHeroName = superheroes.random();
+//=> 'Spider-Ham'
+
+console.log(mySuperHeroName);

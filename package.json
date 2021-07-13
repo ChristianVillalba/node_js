@@ -1,0 +1,22 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "This is a introduction to node projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianVillalba/node_js.git"
+  },
+  "author": "Christian Villalba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianVillalba/node_js/issues"
+  },
+  "homepage": "https://github.com/ChristianVillalba/node_js#readme",
+  "dependencies": {
+    "superheroes": "^3.0.0"
+  }
+}
