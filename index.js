@@ -1,12 +1,24 @@
 // Documentation: https://www.npmjs.com/package/superheroes
 
-// Usage
+// Usage: superheroes
 const superheroes = require('superheroes');
 
 superheroes.all;
 //=> ['3-D Man', 'A-Bomb', …]
 
-var mySuperHeroName = superheroes.random();
+var mySuperHero = superheroes.random();
 //=> 'Spider-Ham'
 
-console.log(mySuperHeroName);
+// Documentation: https://www.npmjs.com/package/supervillains
+
+// Usage: supervillain?
+const supervillains = require('supervillains');
+
+supervillains.all;
+//=> ['Abattoir', 'Able Crown', …]
+
+var mySuperVillain =supervillains.random();
+//=> 'Mud Pack'
+
+// My code: fight!
+console.log(mySuperHero + " vs " +mySuperVillain);
