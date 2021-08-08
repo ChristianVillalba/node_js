@@ -13,7 +13,8 @@ This folder contains examples of:
     * native_node_module.js
 * External Node Modules
     * index.js
-More information in the respectives sections
+    
+More information, descriptions and how to run the code, in the respectives sections
 
 ### Dependencies
 * node.js
@@ -89,10 +90,20 @@ The name of one superhero and the name of one supervillan
 node index.js
 ```
 
+## NPM:
+Initialize NPM:
+```
+npm init  
+```
+introduce: name, version, description ,       
+entry point (main js file): index.js (recommended name)      
+test command: ignore     
+git repository: (default if you created & cloned the repo first)        
 
+This process creates a file called package.json,      
+It is a description of all of our NPM packages so far.     
 
-
-
-
-
-
+Install an NPM external module.      
+will modify our .json file (package-lock.json :  dependencies)    
+Our project depends on those modules    
+in this case, "superheroe"    
